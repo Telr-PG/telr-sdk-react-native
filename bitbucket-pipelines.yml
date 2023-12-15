@@ -1,0 +1,14 @@
+image: atlassian/default-image:3
+
+pipelines:
+  branches:
+    master:
+      - step:
+          name: Push to GitHub
+          script:         
+            - git config --global user.email ${GITHUB_EMAIL}
+            - git config --global user.name ${GITHUB_USER}
+            - FULL_REPO=${BITBUCKET_REPO_FULL_NAME}
+            - REPO=${FULL_REPO:5}
+            - git remote add github https://github.com/Telr-PG/$REPO
+            - git push -f https://${GITHUB_USERNAME}:${GITHUB_PASSWORD}@github.com/Telr-PG/$REPO HEAD:refs/heads/main

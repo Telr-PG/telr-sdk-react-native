@@ -1,0 +1,39 @@
+{
+  "name": "rn-telr-sdk",
+  "version": "2.0.1",
+  "description": "Our mission is to build connections that remove fragmentation in the e-commerce ecosystem. We make these connections to enable our customers to go cashless, digitising the way that they accept payments.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/telrsdk/rn-telr-sdk.git"
+  },
+  "keywords": [
+    "telr",
+    "telr",
+    "sdk",
+    "rn-telr-sdk"
+  ],
+  "author": "Telr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/telrsdk/rn-telr-sdk/issues"
+  },
+  "homepage": "https://github.com/telrsdk/rn-telr-sdk#readme",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": ">=0.65.0"
+  },
+  "dependencies": {
+    "react-native-webview": "^11.23.1",
+    "react-xml-parser": "^1.1.8"
+  },
+  "devDependencies": {
+    "react": "18.1.0",
+    "react-native": "0.70.4",
+    "react-native-webview": "^11.23.1",
+    "react-xml-parser": "^1.1.8"
+  }
+}

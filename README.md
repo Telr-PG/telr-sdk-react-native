@@ -7,7 +7,7 @@ src='https://github.com/telrsdk/TelrSDK/blob/master/Example/TelrSDK/Images.xcass
 
 [![npm version](https://badge.fury.io/js/rn-telr-sdk.svg)](https://badge.fury.io/js/rn-telr-sdk)
 
-This SDK enables you to accept payments in your iOS and Android apps. You can find our documentation [here](https://docs.telr.com).
+This SDK enables you to accept payments in your Android and iOS apps. You can find our documentation [here](https://docs.telr.com).
 
 ## Setup
 

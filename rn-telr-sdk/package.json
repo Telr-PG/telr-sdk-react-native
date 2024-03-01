@@ -8,20 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/telrsdk/rn-telr-sdk.git"
+    "url": "https://github.com/Telr-PG/telr-sdk-react-native.git",
+    "directory": "rn-telr-sdk"
   },
   "keywords": [
-    "telr",
     "telr",
     "sdk",
     "rn-telr-sdk"
   ],
   "author": "Telr",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/telrsdk/rn-telr-sdk/issues"
+    "url": "https://github.com/Telr-PG/telr-sdk-react-native/issues"
   },
-  "homepage": "https://github.com/telrsdk/rn-telr-sdk#readme",
+  "homepage": "https://github.com/Telr-PG/telr-sdk-react-native#readme",
   "peerDependencies": {
     "react": "*",
     "react-native": ">=0.65.0"

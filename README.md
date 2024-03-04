@@ -11,13 +11,19 @@ This SDK enables you to accept payments in your Android and iOS apps. You can fi
 
 ## Setup
 
-This library is available on npm, install it with: `npm i rn-telr-sdk react-native-webview react-xml-parser` or `yarn add rn-telr-sdk react-native-webview react-xml-parser`.
+This library is available on npm, install it with: 
 
-Then make sure you have install the pods, install it with: `pod install`.
+`npm i @telrsdk/rn-telr-sdk react-native-webview react-xml-parser` 
+
+or
+
+`yarn add @telrsdk/rn-telr-sdk react-native-webview react-xml-parser`
+
+Then make sure you have installed the pods by running: `pod install`
 
 ## Usage
 
-1. For Android And ios Import `rn-telr-sdk`:
+1. For Android And iOS Import `rn-telr-sdk`:
 
 ```javascript
 import TelrSdk from "rn-telr-sdk";
@@ -31,7 +37,7 @@ import TelrSdk from "./TelrSdk";
 // copy TelrSDK component file and use that directly in project.
 ```
 
-2.  Add a `<TelrSdk>` component and nest its content inside of it:
+3.  Add a `<TelrSdk>` component and nest its content inside of it:
 
 ```javascript
 function WrapperComponent() {

@@ -1,5 +1,5 @@
 {
-  "name": "rn-telr-sdk",
+  "name": "@telrsdk/rn-telr-sdk",
   "version": "2.0.1",
   "description": "Our mission is to build connections that remove fragmentation in the e-commerce ecosystem. We make these connections to enable our customers to go cashless, digitising the way that they accept payments.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Telr-PG/telr-sdk-react-native.git",
+    "url": "git+https://github.com/Telr-PG/telr-sdk-react-native.git",
     "directory": "rn-telr-sdk"
   },
   "keywords": [
